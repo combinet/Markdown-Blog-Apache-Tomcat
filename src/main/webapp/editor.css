@@ -1,0 +1,64 @@
+h1 {
+	color: black;
+}
+body {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+button {
+	margin-left: 10px;
+	font-size: 15px;
+}
+button.open {
+	color: white;
+	background-color: green;
+}
+button.delete {
+	color: white;
+	background-color: red;
+}
+label {
+	font-size: 20px;
+}
+textarea {
+	height: 30rem;
+	width: 40rem;
+	font-size: 15px;
+}
+#title {
+	width: 40rem;
+	font-size: 15px;
+}
+div.render{
+	border-style: solid;
+	border-color: gray;
+	border-width: 2px;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+div.content {
+	margin-top: 15px;
+	margin-left: 10px;
+}
+table {
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 15px;
+}
+th {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #F0F0F0;
+}
+td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #F5F5F5;
+}
