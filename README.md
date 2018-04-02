@@ -33,3 +33,10 @@ The "list page" shows the list of all blog posts saved by the user. The posts in
     * "delete" button deletes the post from the database and comes back to the list page.
 
 The list page contains a "new post" button to allow users to create a new post. Once pressed, the button leads to the "edit page" for a new post.
+
+# Server-Side API
+This web application follows the following REST API:
+
+    /editor/post?action=type&username=name&postid=num&title=title&body=body
+
+The parameter "action" specifies one of five "actions" that your site has to take: open, save, delete, preview, and list. The other four parameters, username, postid, title, and body are (optional) parameters that the actions may need.
